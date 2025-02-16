@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: pink;
+  min-height: 100vh;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.banner .dic {
+  text-align: center;
+  color: rgb(231, 238, 242);
+}
+
+.banner .bot {
+  display: flex;
+  justify-content: center;
+}
+
+.banner .btn {
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+
+  font-size: 20px;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+
+  /* padding: 20% 30%; */
+}
+.banner .btn:hover {
+  cursor: pointer;
+}
+.banner .left {
+  background-color: palevioletred;
+  margin-right: 20px;
+}
+.banner .right {
+  background-color: rgb(61, 61, 243);
+  margin-left: 20px;
+}
